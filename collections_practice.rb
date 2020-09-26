@@ -52,6 +52,7 @@ end
 def find_a(array)
   array.select do |element| 
     if element.start_with?("a")
+    end
   end
 end
 
